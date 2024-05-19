@@ -1,0 +1,17 @@
+{
+  "name": "github-pages-static",
+  "version": "1.0.0",
+  "description": "A demo repo that uses a custom GitHub action workflow to deploy a static site to GitHub Pages.",
+  "main": "src/index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./base.css -o ./src/css/main.css --watch",
+    "serve": "npx webpack serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
